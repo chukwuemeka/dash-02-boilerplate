@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
@@ -14,7 +16,7 @@ layout = html.Div([
         figure={
             'data': [
                 {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'line', 'name': 'SF'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': u'Montréal'},
+                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': u'Montreal'},
             ],
             'layout': {
                 'title': 'Dash Data Visualization'
